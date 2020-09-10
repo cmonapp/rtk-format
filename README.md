@@ -30,7 +30,7 @@ You can use `\n` character to make a new line in alphanumeric fields
 -   `instructions`: recipe instructions
 -   `pictures`: array contains zero or more pictures names
 -   `url`: url of recipe
--   `video`: video of recipe (support automaticly youtube)
+-   `video`: video of recipe (youtube support)
 -   `notes`: recipe notes
 -   `cookware`: recipe coookware
 -   `nutrition`: recipe nutrition
