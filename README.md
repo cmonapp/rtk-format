@@ -89,12 +89,13 @@ Example :
 ```
 
 ### Category file : categories.json
-
+TODO
 
 ### Tag file : tags.json
-
+TODO
 
 ### Calendar file : calendar.json
-
+TODO
 
 ### Picture file(s) : [uuid].png
+TODO
