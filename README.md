@@ -1,4 +1,6 @@
-# rtk-format
+This page is made to explain the exchange formats used by RecetteTek
+
+# rtk-format (.rtk)
 
 Files with the .RTK extension are zip archives to be used by users of the RecetteTek application.
 
@@ -6,6 +8,23 @@ Files with the .RTK extension are zip archives to be used by users of the Recett
 MyFile.rtk
 ├─ 827b9895-08cf-44e4-940b-728096968d4f.png //[uuid].png
 ├─ fc82033f-f5dd-4cfb-bb47-79e67d77aea9.png //[uuid].png
+├─ recipes_0.json //max 400 recipes by file
+├─ recipes_1.json //max 400 recipes by file
+├─ recipes_2.json //max 400 recipes by file
+├─ categories.json
+├─ tags.json
+├─ calendar.json
+```
+# sync folder
+
+When you use synchronisation in RecetteTek application, the pictures and a recettetek.data file are present in your sync folder.
+recettetek.data is also a zip archive.
+The sync folder is use only for sync process, it is not meant to be changed by users
+
+```
+├─ 827b9895-08cf-44e4-940b-728096968d4f.png //[uuid].png
+├─ fc82033f-f5dd-4cfb-bb47-79e67d77aea9.png //[uuid].png
+recettetek.data
 ├─ recipes_0.json //max 400 recipes by file
 ├─ recipes_1.json //max 400 recipes by file
 ├─ recipes_2.json //max 400 recipes by file
