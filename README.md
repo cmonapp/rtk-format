@@ -1,6 +1,6 @@
 This page is made to explain the exchange formats used by RecetteTek
 
-# rtk-format (.rtk)
+# RTK format (.rtk)
 
 Files with the .RTK extension are zip archives to be used by users of the RecetteTek application.
 
@@ -15,7 +15,7 @@ MyFile.rtk
 ├─ tags.json
 ├─ calendar.json
 ```
-# sync folder
+# Sync folder
 
 When you use synchronisation in RecetteTek application, the pictures and a recettetek.data file are present in your sync folder.
 recettetek.data is also a zip archive.
