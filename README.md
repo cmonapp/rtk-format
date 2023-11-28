@@ -41,7 +41,7 @@ You can use `\n` character to make a new line in alphanumeric fields
 
 | Attribute Name       | Description                            | Type      | Required |
 |----------------------|----------------------------------------|-----------|----------|
-| `uuid`               | Unique identifier of the recipe        | String    | Yes      |
+| `uuid`               | Unique identifier of the recipe (dce2a77a-ff62-4a8c-a087-05d9300c6665) | String    | Yes      |
 | `title`              | Recipe title                           | String    | Yes      |
 | `description`        | Recipe description                     | String    | No       |
 | `preparationTime`    | Recipe preparation time                | String    | No       |
