@@ -39,26 +39,29 @@ This file is a json array that contains max 400 recipes by file
 
 You can use `\n` character to make a new line in alphanumeric fields
 
--   `title`  (required): recipe title
--   `description`: recipe description
--   `preparationTime` : recipe preparation time
--   `cookingTime`: recipe cooking time
--   `inactiveTime`: recipe inacative time
--   `totalTime`: recipe total time (Integer)
--   `ingredients`: recipe ingredients
--   `instructions`: recipe instructions
--   `pictures`: array contains zero or more pictures names
--   `url`: url of recipe
--   `video`: video of recipe (youtube support)
--   `notes`: recipe notes
--   `cookware`: recipe coookware
--   `nutrition`: recipe nutrition
--   `favorite`: is a favorite recipe (Boolean) 
--   `rating`: recipe rating (Float)
--   `categories`: array contains zero or more `Category`
--   `tags`: array contains zero or more `Tag`
--   `uuid`: unique identifier of recipe (Integer)
--   `lastModifiedDate`: recipe last modification date (YYYY-MM-DD HH:hh:ss)
+| Attribute Name       | Description                            | Type      | Required |
+|----------------------|----------------------------------------|-----------|----------|
+| `uuid`               | Unique identifier of the recipe        | String    | Yes      |
+| `title`              | Recipe title                           | String    | Yes      |
+| `description`        | Recipe description                     | String    | No       |
+| `preparationTime`    | Recipe preparation time                | String    | No       |
+| `cookingTime`        | Recipe cooking time                    | String    | No       |
+| `inactiveTime`       | Recipe inactive time                   | String    | No       |
+| `totalTime`          | Total recipe time (in minutes)         | Integer   | No       |
+| `ingredients`        | Recipe ingredients                     | String    | No       |
+| `instructions`       | Recipe instructions                    | String    | No       |
+| `pictures`           | Names of pictures                      | [String]  | No       |
+| `url`                | URL of the recipe                      | String    | No       |
+| `video`              | Recipe video                           | String    | No       |
+| `notes`              | Notes about the recipe                 | String    | No       |
+| `cookware`           | Required cookware for the recipe       | String    | No       |
+| `nutrition`          | Nutritional information of the recipe  | String    | No       |
+| `favorite`           | Indicates if it's a favorite recipe    | Boolean   | No       |
+| `rating`             | Recipe rating                          | Float     | No       |
+| `categories`         | Recipe categories                      | [Category]| No       |
+| `tags`               | Recipe tags                            | [Tag]     | No       |
+| `lastModifiedDate`   | Last modification date of the recipe (YYYY-MM-DD HH:mm:ss) | String | No |
+
 
 Example :
 
