@@ -54,7 +54,7 @@ You can use `\n` character to make a new line in alphanumeric fields
 | `url`                | URL of the recipe                      | String    | No       |
 | `video`              | Recipe video                           | String    | No       |
 | `notes`              | Notes about the recipe                 | String    | No       |
-| `cookware`           | Required cookware for the recipe       | String    | No       |
+| `cookware`           | Cookware for the recipe                | String    | No       |
 | `nutrition`          | Nutritional information of the recipe  | String    | No       |
 | `favorite`           | Indicates if it's a favorite recipe    | Boolean   | No       |
 | `rating`             | Recipe rating                          | Float     | No       |
