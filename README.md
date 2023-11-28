@@ -1,4 +1,4 @@
-This page is made to explain the exchange formats used by RecetteTek
+This page is made to explain the exchange formats used by My Recipe Box - RecetteTek
 
 # RTK format (.rtk)
 
@@ -17,7 +17,7 @@ MyFile.rtk
 ```
 # Sync folder
 
-When you use synchronisation in RecetteTek application, the pictures and a recettetek.data file are present in your sync folder.
+When you use synchronisation in app, the pictures and a recettetek.data file are present in your sync folder.
 recettetek.data is also a zip archive.
 The sync folder is use only for sync process, it is not meant to be changed by users
 
@@ -86,7 +86,7 @@ Example :
        "favorite":true,
        "rating":3.0,
        "lastModifiedDate":"2020-09-10 08:39:09",
-       "uuid":-1954851494,
+       "uuid":"dce2a77a-ff62-4a8c-a087-05d9300c6665",
        "categories":[
           {
              "title":"Categ1"
